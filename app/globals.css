@@ -21,6 +21,53 @@ body {
   background: black;
 }
 
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.shopping-list {
+  padding: 20px;
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sort-button {
+  padding: 10px;
+  background-color: #444;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sort-button.active {
+  background-color: orange;
+}
+
+.items-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-details {
+  color: #aaa;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
