@@ -98,3 +98,36 @@ h1 {
 .emoji {
   font-size: 1.5em;
 }
+body {
+  background-color: #1a1a2e;
+  color: #ecf0f1;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input, select, button {
+  outline: none;
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form input, form select {
+  flex: 1;
+  min-width: 0;
+}
+
